@@ -15,7 +15,7 @@ console.log("Double number value is: "+double(8)); }
 //anonymousFunc();
 let anonymousFunc = function() {
     setTimeout(() => {
-       console.log("This message is delayed for 50 secs- Anonymous Func");           
+       console.log("This message is delayed for 40 secs- Anonymous Func");           
     }, 4000);
     //console.log("This message is delayed for 2mins");   
     
@@ -26,7 +26,7 @@ anonymousFunc();
 // Callback Function
 function getUserData(callback) {
     setTimeout(() => {
-       console.log("This message is delayed for 30 secs - Call Func");           
+       console.log("This message is delayed for 80 secs - Call Func");           
     }, 8000);
     callback();
 }
