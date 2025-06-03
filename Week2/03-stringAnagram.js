@@ -18,7 +18,7 @@ function stringAnagramCheck(string01,string02){
 
             if (string02.includes(stringarray1[i])) {
                 if(i === stringarray1.length-1){
-                console.log(`-----Strings "${string01}${string02}" are Anagram-----`);  
+                console.log(`-----Strings "${string01} ${string02}" are Anagram-----`);  
                 //console.log("Charc value:"+stringarray1[i]);
                  
                 }
@@ -38,3 +38,5 @@ function stringAnagramCheck(string01,string02){
 }
 //stringAnagramCheck("Hello","World");
 stringtolowercase("Triangle","Integral",stringAnagramCheck);
+stringtolowercase("Hello","World",stringAnagramCheck);
+stringtolowercase("Listen","Silent",stringAnagramCheck);
