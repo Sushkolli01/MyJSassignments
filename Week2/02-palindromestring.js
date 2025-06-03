@@ -14,7 +14,7 @@ function stringpalindrome(string01,string02) {
     
     const lowercasestring01 = string01.toLowerCase();
     const lowercasestring02 = string02.toLowerCase();
-    if(string01 === string02){
+    if(lowercasestring01 === lowercasestring02){
         console.log("Strings are palindrome string");        
     } else{
         console.log("Strings are not palindrome");
@@ -22,3 +22,5 @@ function stringpalindrome(string01,string02) {
     }
 }
 stringreverse("touch",stringpalindrome);
+stringreverse("civic",stringpalindrome);
+stringreverse("Madam",stringpalindrome);
